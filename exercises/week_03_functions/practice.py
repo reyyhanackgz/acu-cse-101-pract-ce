@@ -17,6 +17,7 @@ def say_welcome():
 # A parameter receives an argument from the caller.
 # return sends a result back; print displays a result on the screen.
 # Goal: double(4) returns 8; double(7) returns 14.
+
 def double(number):
     return number * 2
 
@@ -32,6 +33,12 @@ say_welcome()
 print(double(4))
 print(add(3, 5))
 # After completing the functions, try these calls in the Python terminal:
-# say_welcome()
-# print(double(4))
-# print(add(3, 5))
+
+say_welcome()
+print(double(3))
+
+# Function compoistion
+print(add())
+
+
+
